@@ -20,7 +20,15 @@ h1, h2, h3{
   font-family: $title;
 }
 
+h1{
+  font-size: 12vw;
+}
+
 p{
   font-family: $para;
   color: $grey;
+}
+
+.container{
+  padding: 0px 6vw;
 }

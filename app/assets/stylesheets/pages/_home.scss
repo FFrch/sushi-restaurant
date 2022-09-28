@@ -7,3 +7,39 @@
 .red-p{
   color: $dark-red;
 }
+
+.description{
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 25px 0px;
+
+  .sushi{
+    height: 60px;
+    rotate: -9deg;
+  }
+
+  p{
+    margin: 0px 33px 0px 17px;
+  }
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h2{
+    margin: 20px 15px 20px 0px;
+    font-weight: 100;
+    font-size: 34px;
+    color: $grey;
+  }
+
+  p{
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+hr{
+  margin: 0px;
+}

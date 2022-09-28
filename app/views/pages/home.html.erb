@@ -9,21 +9,33 @@
   </button>
 </nav>
 
-<h1>Feel the taste of Japanese foods</h1>
-<p>Feel the taste of most popular Japanese foods from anywhere and anytime.</p>
-
-<button class="black-button">Order Now</button>
-<a href=# class="link"><i class="fa-regular fa-circle-play"></i>How to Order</a>
-
-<div class="cream-background">
-  <h2>24K+</h2>
-  <p>Happy Customer</p>
-  <hr>
-  <%=image_tag("avatar.jpg", class: "avatar")%>
-  <p>"This is the best Japanese food delivery service that ever exist"</p>
+<div class="container">
+  <h1>Feel the taste of Japanese foods</h1>
+  <div class="description">
+    <%=image_tag("sushi.svg", class: "sushi")%>
+    <p>Feel the taste of most popular Japanese foods from anywhere and anytime.</p>
+  </div>
+  <button class="black-button">Order Now</button>
+  <a href=# class="link"><i class="fa-regular fa-circle-play"></i>How to Order</a>
 </div>
 
-<p class="red-p">About Us / ツるル漢文今日み</p>
+<div class="cream-background">
+  <div class="container">
+    <div class="flex">
+      <h2>24K+</h2>
+      <p>Happy Customer</p>
+    </div>
+    <hr>
+    <div class="flex">
+      <%=image_tag("avatar.jpg", class: "avatar")%>
+      <p>"This is the best Japanese food delivery service that ever exist"</p>
+    </div>
+  </div>
+</div>
 
-<h2>Our mission is to bring true Japanese flavours to you.</h2>
-<p>We will continue to provide the experience of Omotenashi, the Japanese mindset of hospitality, with ou shopping and dining for our customers.</p>
+<div class="container">
+  <p class="red-p">About Us / ツるル漢文今日み</p>
+
+  <h2>Our mission is to bring true Japanese flavours to you.</h2>
+  <p>We will continue to provide the experience of Omotenashi, the Japanese mindset of hospitality, with ou shopping and dining for our customers.</p>
+</div>
