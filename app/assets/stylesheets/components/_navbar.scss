@@ -1,11 +1,4 @@
-.navbar-toggler{
-  height: 100%;
-  width: 14vw;
-  background-color: $dark-red;
-  border: none;
-  border-radius: 0px;
-  color: white;
-}
+// Mobile version
 
 .navbar{
   padding: 0px;
@@ -22,6 +15,16 @@
   }
 }
 
+.navbar-toggler{
+  height: 100%;
+  width: 14vw;
+  background-color: $dark-red;
+  border: none;
+  border-radius: 0px;
+  color: white;
+}
+
+// Menu déroulé
 .offcanvas.offcanvas-top{
   height: fit-content;
 }
@@ -51,5 +54,33 @@
     border: solid 0.5px black;
     width: 39px;
     margin: 2px;
+  }
+}
+
+//Desktop version
+
+/*media queries*/
+
+@media only screen and (min-width: 768px) {
+
+  // Masquer le Menu button
+  .navbar-toggler{
+    display: none;
+  }
+
+  .logo h3{
+    color: white;
+    background-color: $dark-red;
+  }
+
+  .offcanvas-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+
+    hr {
+      display: none;
+    }
   }
 }
