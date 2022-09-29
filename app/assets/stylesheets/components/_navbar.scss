@@ -21,3 +21,35 @@
     margin-bottom: 0px;
   }
 }
+
+.offcanvas.offcanvas-top{
+  height: fit-content;
+}
+
+.offcanvas-header{
+  flex-direction: row-reverse;
+}
+
+.offcanvas-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 0px 5px 0px;
+
+    font-weight: 500;
+    font-size: 14px;
+
+    // border-bottom: solid 1px $grey;
+  }
+
+  hr{
+    border: solid 0.5px black;
+    width: 39px;
+    margin: 2px;
+  }
+}
