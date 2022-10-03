@@ -83,6 +83,10 @@ font-weight: 100;
     width: 40vw;
   }
 
+  .top-homepage{
+    width: 60vw;
+  }
+
   .cream-background{
     margin-bottom: 0px;
   }
@@ -94,9 +98,6 @@ font-weight: 100;
   .cream-background-desktop{
     background-color: $cream;
     width: 40vw;
-  }
-
-  .container{
-    max-width: min-content;
+    min-width: 40vw;
   }
 }
