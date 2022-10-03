@@ -72,6 +72,31 @@ font-weight: 100;
   background-color: $dark-red;
 }
 
+
 @media only screen and (min-width: 768px) {
- display: content;
+
+  .flex-desktop{
+    display: flex;
+  }
+  .red-background{
+    background-color: $dark-red;
+    width: 40vw;
+  }
+
+  .cream-background{
+    margin-bottom: 0px;
+  }
+
+  #cream-flex{
+    display: flex;
+  }
+
+  .cream-background-desktop{
+    background-color: $cream;
+    width: 40vw;
+  }
+
+  .container{
+    max-width: min-content;
+  }
 }

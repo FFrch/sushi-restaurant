@@ -71,10 +71,13 @@
   .navbar{
     display: flex;
     align-items: center;
+    margin-bottom: 0px;
   }
 
   .logo{
     padding-top: 11px;
+    background-color: $dark-red;
+    width: 40vw;
   }
 
   .logo h3{
