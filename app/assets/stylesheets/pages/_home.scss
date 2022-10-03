@@ -72,6 +72,10 @@ font-weight: 100;
   background-color: $dark-red;
 }
 
+.cream-background-desktop{
+    visibility: hidden;
+    height: 0px;
+}
 
 @media only screen and (min-width: 768px) {
 
@@ -122,9 +126,25 @@ font-weight: 100;
   }
 
   .cream-background-desktop{
+    visibility: visible;
+    height: auto;
+
     background-color: $cream;
     width: 40vw;
     min-width: 40vw;
+
+    display: flex;
+    justify-content: space-around;
+
+    .sushi2{
+      width: 55%;
+      padding: 0px 0px 80px 20px;
+    }
+
+    .signes{
+      width: 30%;
+      padding: 2vw 10px 90px 0px;
+    }
   }
 
   .flex-start{
