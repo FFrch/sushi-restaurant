@@ -66,3 +66,12 @@ font-weight: 100;
 .flex-start{
   display: flex;
 }
+
+.red-side{
+  display: none;
+  background-color: $dark-red;
+}
+
+@media only screen and (min-width: 768px) {
+ display: content;
+}
