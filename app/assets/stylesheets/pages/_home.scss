@@ -141,6 +141,24 @@ font-weight: 100;
       padding: 0px 0px 80px 20px;
     }
 
+    .white-background{
+      background-color: white;
+      height: 5px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    .black-button-desktop{
+      justify-content: center;
+      height: 30px;
+      margin-left: auto;
+      margin-right: 0px;
+      border-radius: 18px 0px 0px 18px;
+      display: flex;
+      align-items: center;
+    }
+
     .signes, .signes2{
       width: 30%;
       padding: 2vw 10px 90px 0px;
