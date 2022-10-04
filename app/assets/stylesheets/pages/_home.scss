@@ -84,11 +84,11 @@ font-weight: 100;
   }
   .red-background{
     background-color: $dark-red;
-    width: 40vw;
+    width: 30vw;
   }
 
   .top-homepage{
-    width: 60vw;
+    width: 70vw;
   }
 
   .container{
@@ -130,15 +130,30 @@ font-weight: 100;
     height: auto;
 
     background-color: $cream;
-    width: 40vw;
-    min-width: 40vw;
+    width: 30vw;
+    min-width: 30vw;
 
     display: flex;
     justify-content: space-around;
 
-    .sushi2, .sushi3{
+    .width100{
+      width: 100%;
+    }
+
+    #height170{
+      height: 170px;
+    }
+
+    .sushi2{
+      height: 100px;
       width: 55%;
-      padding: 0px 0px 80px 20px;
+      padding: 0px 0px 0px 44px;
+    }
+
+    .sushi3{
+      height: 90px;
+      width: 55%;
+      padding: 0px 0px 0px 44px;
     }
 
     .white-background{
@@ -152,6 +167,7 @@ font-weight: 100;
     .black-button-desktop{
       justify-content: center;
       height: 30px;
+      width: 130px;
       margin-left: auto;
       margin-right: 0px;
       border-radius: 18px 0px 0px 18px;
@@ -159,17 +175,25 @@ font-weight: 100;
       align-items: center;
     }
 
-    .signes, .signes2{
-      width: 30%;
-      padding: 2vw 10px 90px 0px;
+    .signes{
+      height: 150px;
+      width: 42%;
+      padding: 15px 0px 15px 0px;
+    }
+
+    .signes2{
+      height: 162px;
+      width: 42%;
+      padding: 30px 0px 15px 0px;
     }
   }
 
   .flex-start{
-    margin-top: 70px;
+    margin-top: 80px;
   }
 
   #red-p-h2{
     font-size: 4vw;
+    margin-top: 10px;
   }
 }
