@@ -72,6 +72,12 @@ font-weight: 100;
   background-color: $dark-red;
 }
 
+.red-background img{
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+}
+
 .cream-background-desktop{
     visibility: hidden;
     height: 0px;
@@ -85,6 +91,12 @@ font-weight: 100;
   .red-background{
     background-color: $dark-red;
     width: 30vw;
+
+    img{
+      visibility: visible;
+      width: 108%;
+      height: auto;
+    }
   }
 
   .top-homepage{
