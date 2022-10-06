@@ -86,9 +86,11 @@
   }
 
   .offcanvas-body{
+
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+
     hr {
       display: none;
     }

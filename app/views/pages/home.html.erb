@@ -19,7 +19,7 @@
 
     <!-- Tabs -->
     <div class="offcanvas-body">
-      <a href="#">MENU</a>
+      <a href="#" class="tab">MENU</a>
       <hr>
       <a href="#">FOODS</a>
       <hr>
@@ -32,11 +32,15 @@
   </div>
 </nav>
 
+<!-- HomePage upper part -->
 <div class="flex-desktop">
+
+  <!-- Partie supérieur gauche, invisible en Mobile -->
   <div class="red-background">
     <%=image_tag("leftpicture.svg", class: "leftpicture")%>
   </div>
 
+  <!-- Partie supérieur droite, contenu initial -->
   <div class="top-homepage">
     <div class="container">
       <h1>Feel the taste of Japanese foods</h1>
@@ -67,7 +71,10 @@
   </div>
 </div>
 
+<!-- HomePage sub part -->
 <div class="flex-desktop">
+
+  <!-- Partie inférieur Gauche, invisible en Mobile -->
   <div class="cream-background-desktop">
     <div class="width100">
       <div id="height170">
@@ -82,6 +89,7 @@
     </div>
   </div>
 
+  <!-- Partie inférieur droite, contenu initial -->
   <div class="container">
     <div class="flex-start"><p class="red-p">About Us / <p class="red-p light-weight">ツるル漢文今日み</p></p></div>
     <h2 id="red-p-h2">Our mission is to bring true Japanese flavours to you.</h2>
